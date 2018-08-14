@@ -22,3 +22,24 @@
   justify-content: center;
 }
 span{padding:10px; }
+.btn-group{
+
+width:350px;
+display: flex;
+justify-content: space-around;
+margin: auto;
+padding: 20px;
+
+}
+button{
+  width:130px;
+height:35px;
+border: 1px solid rgb(111, 208, 244);
+font-family: Arial;
+font-weight: bold;
+font-size: 16px;
+background: white;
+border-radius: 5px;
+
+
+}
