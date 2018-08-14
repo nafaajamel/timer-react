@@ -19,18 +19,20 @@ setTimeout(() => {
 
  if(this.state.second===60){
 
-  this.setState({
   
-    minute: (this.state.minute+1),
-    second:0
-   
-  })
   if(this.state.minute===60){
     this.setState({
      
       hour: (this.state.hour+1),
       minute:0 
-    })}
+    })}else{
+      this.setState({
+  
+        minute: (this.state.minute+1),
+        second:0
+       
+      })
+    }
 
  
  }else{
